@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {{ super() }}
+    <hr>
+    {% for model in models %}
+        <img src="{{ model.image.url_thumb }}" alt="">
+        <hr/>
+    {% endfor %}
+
+    {% include "index.html" %}
+{% endblock %}

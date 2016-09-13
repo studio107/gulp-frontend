@@ -1,0 +1,11 @@
+{
+  "models": [
+    {"name": "product 0", "image": {
+      "url_thumb": "http://placehold.it/80x80"
+    }},
+    {"name": "product 1"},
+    {"name": "product 2"},
+    {"name": "product 3"},
+    {"name": "product 4"}
+  ]
+}
